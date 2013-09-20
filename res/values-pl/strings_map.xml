@@ -1,17 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
 /*
- * Copyright (c) 2010-2011, Code Aurora Forum. All rights reserved.
+ * Copyright (c) 2011-2012, Code Aurora Forum. All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
  *        * Redistributions of source code must retain the above copyright
- *          notice, this list of conditions and the following disclaimer.
+ *            notice, this list of conditions and the following disclaimer.
  *        * Redistributions in binary form must reproduce the above copyright
- *          notice, this list of conditions and the following disclaimer in the
- *          documentation and/or other materials provided with the distribution.
+ *            notice, this list of conditions and the following disclaimer in the
+ *            documentation and/or other materials provided with the distribution.
  *        * Neither the name of Code Aurora nor
- *          the names of its contributors may be used to endorse or promote
- *          products derived from this software without specific prior written
- *          permission.
+ *            the names of its contributors may be used to endorse or promote
+ *            products derived from this software without specific prior written
+ *            permission.
  *
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
  * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
@@ -25,17 +27,11 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-
-package com.android.bluetooth.map.MapUtils;
-
-import java.util.Comparator;
-import com.android.bluetooth.map.MapUtils.MsgListingConsts;
-
-public class SortMsgListByDate implements Comparator<MsgListingConsts> {
-
-    public int compare(MsgListingConsts object1, MsgListingConsts object2) {
-
-        return object2.msgInfo.getDateTime().compareTo(object1.msgInfo.getDateTime());
-    }
-
-}
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="map_acceptance_dialog_title">%1$s chce uzyskać dostęp do folderów w urządzeniu. Czy przyznać dostęp %2$s?</string>
+    <string name="map_acceptance_dialog_header">Dostęp do folderów urządzenia</string>
+    <string name="map_notif_title">Żądanie klucza sesji dla połączenia MAP</string>
+    <string name="map_notif_message">Zezwalaj %1$s na dostęp do folderu głównego</string>
+    <string name="map_alert_conn_failed_message">Połączenie Bluetooth MAP nie powiodło się</string>
+</resources>
